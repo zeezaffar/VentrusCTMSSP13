@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="SiteOverviewWebPartUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SiteOverview\" Type="ElementManifest" />
+    <ProjectItemFile Source="SiteOverviewWebPart.webpart" Target="SiteOverview\" Type="ElementFile" />
+    <ProjectItemFile Source="SiteOverviewWebPartUserControl.ascx" Target="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\SiteOverview\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="HFA.SPSolutions.WebParts.SiteOverview" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

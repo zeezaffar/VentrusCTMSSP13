@@ -1,0 +1,5 @@
+C:\Source\HFA.SP2013Solutions\DanFay.SPHelper\bin\Debug\DanFay.SPHelper.dll
+C:\Source\HFA.SP2013Solutions\DanFay.SPHelper\bin\Debug\DanFay.SPHelper.pdb
+C:\Source\HFA.SP2013Solutions\DanFay.SPHelper\obj\Debug\DanFay.SPHelper.dll
+C:\Source\HFA.SP2013Solutions\DanFay.SPHelper\obj\Debug\DanFay.SPHelper.pdb
+C:\Source\HFA.SP2013Solutions\DanFay.SPHelper\obj\Debug\DanFay.SPHelper.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="739229cd-3102-458c-af2e-312d16d525ce" solutionId="739229cd-3102-458c-af2e-312d16d525ce" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="HFA.SPSolutions.EventReceivers">
+    <features>
+        <featureReference itemId="076d05f9-1410-454e-8997-e6954eb7753d" />
+    </features>
+</package>

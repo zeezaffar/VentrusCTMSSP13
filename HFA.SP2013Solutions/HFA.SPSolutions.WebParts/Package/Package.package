@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="fa289a9f-aec9-4fc3-a8ef-87e0c70c5352" solutionId="fa289a9f-aec9-4fc3-a8ef-87e0c70c5352" resetWebServer="false" sharePointProductVersion="15.0" name="HFA.SPSolutions.WebParts" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="ephtmltopdf.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="bin\ephtmltopdf.dll" />
+    <projectOutputAssembly location="DanFay.SPHelper.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\DanFay.SPHelper\DanFay.SPHelper.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="fe00bcec-3bc8-48cf-8604-988cb4bcd7d2" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="7a11df41-e204-45a2-9c13-9839b1a3ece9" />
+    <projectItemReference itemId="ffbf8fb9-1c64-4146-9a2e-c43f3b50604e" />
+  </projectItems>
+</package>

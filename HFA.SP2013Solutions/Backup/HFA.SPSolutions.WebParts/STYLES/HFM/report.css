@@ -1,0 +1,65 @@
+
+
+body
+{
+width: 800px;
+}
+
+p.centerContent
+{
+text-align: center;
+font-weight: bold;
+}
+
+table
+{
+width: 800px;
+border: 1px solid black;
+
+}
+
+table td
+{
+border: 1px solid black;
+}
+
+table td.label
+{
+width: 150px;
+}
+
+table td.label2
+{
+width: 450px;
+}
+
+table td.category
+{
+background-color: #AAA;
+}
+
+table td.subcategory
+{
+background-color: #CCC;
+}
+
+table td.question
+{
+
+}
+
+table td.yn
+{
+width: 30px;
+}
+
+table td.subjectComments
+{
+width: 250px;
+}
+
+table td.subjectDescription
+{
+width: 300px;
+}
+

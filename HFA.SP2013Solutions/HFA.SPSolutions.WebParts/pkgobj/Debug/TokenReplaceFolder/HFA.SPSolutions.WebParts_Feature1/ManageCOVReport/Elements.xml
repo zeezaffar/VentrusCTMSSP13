@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="ManageCOVReport" List="113" Url="_catalogs/wp">
+    <File Path="ManageCOVReport\ManageCOVReport.webpart" Url="ManageCOVReport.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Hedge Fund Architect" />
+    </File>
+  </Module>
+</Elements>

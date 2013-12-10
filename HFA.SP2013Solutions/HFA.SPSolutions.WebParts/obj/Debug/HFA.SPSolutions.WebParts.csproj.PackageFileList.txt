@@ -1,0 +1,1 @@
+bin\Debug\HFA.SPSolutions.WebParts.wsp

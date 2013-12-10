@@ -1,0 +1,5 @@
+C:\Source\HFA.SP2013Solutions\HFA.SPSolutions.WebParts\obj\Debug\HFA.SPSolutions.WebParts.csprojResolveAssemblyReference.cache
+C:\Source\HFA.SP2013Solutions\HFA.SPSolutions.WebParts\bin\Debug\HFA.SPSolutions.WebParts.dll
+C:\Source\HFA.SP2013Solutions\HFA.SPSolutions.WebParts\bin\Debug\HFA.SPSolutions.WebParts.pdb
+C:\Source\HFA.SP2013Solutions\HFA.SPSolutions.WebParts\obj\Debug\HFA.SPSolutions.WebParts.dll
+C:\Source\HFA.SP2013Solutions\HFA.SPSolutions.WebParts\obj\Debug\HFA.SPSolutions.WebParts.pdb

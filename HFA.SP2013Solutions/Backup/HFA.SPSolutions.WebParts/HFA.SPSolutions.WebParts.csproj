@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA13A2AF-251B-4352-88DE-3F78B077495B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HFA.SPSolutions.WebParts</RootNamespace>
+    <AssemblyName>HFA.SPSolutions.WebParts</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ephtmltopdf">
+      <HintPath>..\..\..\Applications\Deployment\ephtmltopdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Libs\SubjectActivityTracker.cs" />
+    <Compile Include="ManageCOVReport\ManageCOVReport.cs" />
+    <Compile Include="ManageCOVReport\ManageCOVReportUserControl.ascx.cs">
+      <DependentUpon>ManageCOVReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCOVReport\ManageCOVReportUserControl.ascx.designer.cs">
+      <DependentUpon>ManageCOVReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageIMVReport\ManageIMVReport.cs" />
+    <Compile Include="ManageIMVReport\ManageIMVReportUserControl.ascx.cs">
+      <DependentUpon>ManageIMVReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageIMVReport\ManageIMVReportUserControl.ascx.designer.cs">
+      <DependentUpon>ManageIMVReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSIVReport\ManageSIVReport.cs" />
+    <Compile Include="ManageSIVReport\ManageSIVReportUserControl.ascx.cs">
+      <DependentUpon>ManageSIVReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSIVReport\ManageSIVReportUserControl.ascx.designer.cs">
+      <DependentUpon>ManageSIVReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSSVReport\ManageSSVReport.cs" />
+    <Compile Include="ManageSSVReport\ManageSSVReportUserControl.ascx.cs">
+      <DependentUpon>ManageSSVReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSSVReport\ManageSSVReportUserControl.ascx.designer.cs">
+      <DependentUpon>ManageSSVReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDFConversion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Libs\SiteList.cs" />
+    <Compile Include="SiteOverview\SiteOverviewWebPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a11df41-e204-45a2-9c13-9839b1a3ece9}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ManageCOVReport\ManageCOVReport.webpart" />
+    <None Include="ManageCOVReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b83af5cf-a7ab-4b9e-a2f7-067fd0cd0bd5}</SharePointProjectItemId>
+    </None>
+    <None Include="ManageIMVReport\ManageIMVReport.webpart" />
+    <None Include="ManageIMVReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{904fcdd4-faab-4b33-880d-fa08ee419122}</SharePointProjectItemId>
+    </None>
+    <None Include="ManageSIVReport\ManageSIVReport.webpart" />
+    <None Include="ManageSIVReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6a7dcf85-573f-410e-bac2-8fc0bc1e5404}</SharePointProjectItemId>
+    </None>
+    <None Include="ManageSSVReport\ManageSSVReport.webpart" />
+    <None Include="ManageSSVReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ea00fa36-7a2f-49c6-9529-ec91f068bb87}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteOverview\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25459c52-09b5-450d-be28-26a613da7c9c}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteOverview\SiteOverviewWebPart.webpart" />
+    <None Include="SiteOverview\Elements.xml" />
+    <None Include="STYLES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffbf8fb9-1c64-4146-9a2e-c43f3b50604e}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ephtmltopdf.dll" />
+    <Content Include="bin\ephtmltopdf.xml" />
+    <Content Include="HTML\IMVReport.html" />
+    <Content Include="Images\HFA\COV.gif" />
+    <Content Include="Images\HFA\COV_selected.gif" />
+    <Content Include="Images\HFA\DanFay-Icon.png" />
+    <Content Include="Images\HFA\gen_info.png" />
+    <Content Include="Images\HFA\IMV.gif" />
+    <Content Include="Images\HFA\IMV_selected.gif" />
+    <Content Include="Images\HFA\investigator_brochure.png" />
+    <Content Include="Images\HFA\Issues.gif" />
+    <Content Include="Images\HFA\issues.png" />
+    <Content Include="Images\HFA\issues_selected.gif" />
+    <Content Include="Images\HFA\plus.png" />
+    <Content Include="Images\HFA\separator.gif" />
+    <Content Include="Images\HFA\separator.png" />
+    <Content Include="Images\HFA\SIV.gif" />
+    <Content Include="Images\HFA\SIV_selected.gif" />
+    <Content Include="Images\HFA\SSV.gif" />
+    <Content Include="Images\HFA\SSV_selected.gif" />
+    <Content Include="Images\HFA\subjects.gif" />
+    <Content Include="Images\HFA\subjects_selected.gif" />
+    <Content Include="Images\HFA\submit.gif" />
+    <Content Include="Images\HFA\submitCR.gif" />
+    <Content Include="Images\HFA\Tab.png" />
+    <Content Include="Images\HFA\left_both.gif" />
+    <Content Include="Images\HFA\right_both.gif" />
+    <Content Include="ManageCOVReport\Elements.xml" />
+    <Content Include="ManageCOVReport\ManageCOVReportUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ManageIMVReport\Elements.xml" />
+    <Content Include="ManageIMVReport\ManageIMVReportUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ManageSIVReport\Elements.xml" />
+    <Content Include="ManageSIVReport\ManageSIVReportUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ManageSSVReport\Elements.xml" />
+    <Content Include="ManageSSVReport\ManageSSVReportUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="SiteOverview\SiteOverviewWebPartUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Compile Include="SiteOverview\SiteOverviewWebPartUserControl.ascx.cs">
+      <DependentUpon>SiteOverviewWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteOverview\SiteOverviewWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>SiteOverviewWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Content Include="default.css" />
+    <Content Include="STYLES\HFM\report.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{fa289a9f-aec9-4fc3-a8ef-87e0c70c5352}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{fe00bcec-3bc8-48cf-8604-988cb4bcd7d2}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DanFay.SPHelper\DanFay.SPHelper.csproj">
+      <Project>{3541D99C-64A1-4E0A-8262-FE632E734427}</Project>
+      <Name>DanFay.SPHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

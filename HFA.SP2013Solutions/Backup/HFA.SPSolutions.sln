@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFA.SPSolutions.WebParts", "HFA.SPSolutions.WebParts\HFA.SPSolutions.WebParts.csproj", "{BA13A2AF-251B-4352-88DE-3F78B077495B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanFay.SPHelper", "DanFay.SPHelper\DanFay.SPHelper.csproj", "{3541D99C-64A1-4E0A-8262-FE632E734427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFA.SPSolutions.EventReceivers", "HFA.SPSolutions.EventReceivers\HFA.SPSolutions.EventReceivers.csproj", "{49D0BE13-AC59-4979-A39F-8398AB1DA202}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://danfay.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DanFay.SPHelper\\DanFay.SPHelper.csproj
+		SccProjectName1 = DanFay.SPHelper
+		SccLocalPath1 = DanFay.SPHelper
+		SccProjectUniqueName2 = HFA.SPSolutions.WebParts\\HFA.SPSolutions.WebParts.csproj
+		SccProjectName2 = HFA.SPSolutions.WebParts
+		SccLocalPath2 = HFA.SPSolutions.WebParts
+		SccProjectUniqueName3 = HFA.SPSolutions.EventReceivers\\HFA.SPSolutions.EventReceivers.csproj
+		SccProjectName3 = HFA.SPSolutions.EventReceivers
+		SccLocalPath3 = HFA.SPSolutions.EventReceivers
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA13A2AF-251B-4352-88DE-3F78B077495B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3541D99C-64A1-4E0A-8262-FE632E734427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3541D99C-64A1-4E0A-8262-FE632E734427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3541D99C-64A1-4E0A-8262-FE632E734427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3541D99C-64A1-4E0A-8262-FE632E734427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D0BE13-AC59-4979-A39F-8398AB1DA202}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

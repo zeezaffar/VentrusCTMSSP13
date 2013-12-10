@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="HFA.SPSolutions.WebParts.SiteOverview.SiteOverviewWebPart, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Site Overview WebPart</property>
+        <property name="Description" type="string">This webpart displays the site main information and has tabbed view for reports, subject and issues list</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

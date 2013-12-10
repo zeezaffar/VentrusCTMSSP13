@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="My Visual WebPart Feature" Id="fe00bcec-3bc8-48cf-8604-988cb4bcd7d2" Scope="Site" Title="HFA.SPSolutions.WebParts Feature1">
+  <ElementManifests>
+    <ElementManifest Location="SiteOverview\Elements.xml" />
+    <ElementFile Location="SiteOverview\SiteOverviewWebPart.webpart" />
+    <ElementManifest Location="ManageSIVReport\Elements.xml" />
+    <ElementFile Location="ManageSIVReport\ManageSIVReport.webpart" />
+    <ElementManifest Location="ManageCOVReport\Elements.xml" />
+    <ElementFile Location="ManageCOVReport\ManageCOVReport.webpart" />
+    <ElementManifest Location="ManageIMVReport\Elements.xml" />
+    <ElementFile Location="ManageIMVReport\ManageIMVReport.webpart" />
+    <ElementManifest Location="ManageSSVReport\Elements.xml" />
+    <ElementFile Location="ManageSSVReport\ManageSSVReport.webpart" />
+  </ElementManifests>
+</Feature>

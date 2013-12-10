@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="fa289a9f-aec9-4fc3-a8ef-87e0c70c5352" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ephtmltopdf.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="DanFay.SPHelper.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="HFA.SPSolutions.WebParts.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="HFA.SPSolutions.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c2017e68e4445f2" Namespace="HFA.SPSolutions.WebParts.SiteOverview" TypeName="*" />
+        <SafeControl Assembly="HFA.SPSolutions.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c2017e68e4445f2" Namespace="HFA.SPSolutions.WebParts.ManageSIVReport" TypeName="*" />
+        <SafeControl Assembly="HFA.SPSolutions.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c2017e68e4445f2" Namespace="HFA.SPSolutions.WebParts.ManageCOVReport" TypeName="*" />
+        <SafeControl Assembly="HFA.SPSolutions.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c2017e68e4445f2" Namespace="HFA.SPSolutions.WebParts.ManageIMVReport" TypeName="*" />
+        <SafeControl Assembly="HFA.SPSolutions.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c2017e68e4445f2" Namespace="HFA.SPSolutions.WebParts.ManageSSVReport" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\SiteOverview\SiteOverviewWebPartUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\ManageSIVReport\ManageSIVReportUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\ManageCOVReport\ManageCOVReportUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\ManageIMVReport\ManageIMVReportUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\HFA.SPSolutions.WebParts\ManageSSVReport\ManageSSVReportUserControl.ascx" />
+    <TemplateFile Location="Images\HFA\COV.gif" />
+    <TemplateFile Location="Images\HFA\COV_selected.gif" />
+    <TemplateFile Location="Images\HFA\DanFay-Icon.png" />
+    <TemplateFile Location="Images\HFA\gen_info.png" />
+    <TemplateFile Location="Images\HFA\IMV.gif" />
+    <TemplateFile Location="Images\HFA\IMV_selected.gif" />
+    <TemplateFile Location="Images\HFA\investigator_brochure.png" />
+    <TemplateFile Location="Images\HFA\Issues.gif" />
+    <TemplateFile Location="Images\HFA\issues.png" />
+    <TemplateFile Location="Images\HFA\issues_selected.gif" />
+    <TemplateFile Location="Images\HFA\plus.png" />
+    <TemplateFile Location="Images\HFA\separator.gif" />
+    <TemplateFile Location="Images\HFA\separator.png" />
+    <TemplateFile Location="Images\HFA\SIV.gif" />
+    <TemplateFile Location="Images\HFA\SIV_selected.gif" />
+    <TemplateFile Location="Images\HFA\SSV.gif" />
+    <TemplateFile Location="Images\HFA\SSV_selected.gif" />
+    <TemplateFile Location="Images\HFA\subjects.gif" />
+    <TemplateFile Location="Images\HFA\subjects_selected.gif" />
+    <TemplateFile Location="Images\HFA\submit.gif" />
+    <TemplateFile Location="Images\HFA\submitCR.gif" />
+    <TemplateFile Location="Images\HFA\Tab.png" />
+    <TemplateFile Location="Images\HFA\left_both.gif" />
+    <TemplateFile Location="Images\HFA\right_both.gif" />
+    <TemplateFile Location="LAYOUTS\1033\STYLES\HFM\report.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="HFA.SPSolutions.WebParts_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
